@@ -9,5 +9,13 @@ public class Main {
 
     public static void main(String[] args){
         System.out.println("Go lulus Juli!");
+
+        long startTime = System.nanoTime();
+
+        MusicXML musicXML = new MusicXML("res/twinkle.xml");
+
+        long endTime = System.nanoTime();
+
+        System.out.format("finished... time taken: %.6f s\n", (endTime - startTime) / 1000000000.);
     }
 }
