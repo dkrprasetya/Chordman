@@ -1,21 +1,19 @@
-package com.dikra.tugasakhir.musicxml;
+package com.dikra.tugasakhir.parser.xml;
 
+import com.dikra.tugasakhir.music.model.Music;
+import com.dikra.tugasakhir.music.model.Part;
 import org.dom4j.Document;
-import org.dom4j.DocumentException;
-import org.dom4j.Element;
 import org.dom4j.Node;
 
-import java.util.ArrayList;
 import java.util.List;
 
 /**
  * Created by DIKRA on 4/6/2015.
  */
-public class MusicXML {
+public class MusicXML extends Music {
     private Document doc;
-    private Part[] parts;
 
-    public MusicXML(String path){
+    public MusicXML(String path) {
         boolean success = false;
         try {
             init(path);
@@ -27,7 +25,7 @@ public class MusicXML {
             doc = null;
             parts = null;
         } finally {
-            System.out.println("Parsing MusicXML success? " + success);
+            //System.out.println("Parsing MusicXML success? " + success);
         }
 
     }
@@ -41,19 +39,12 @@ public class MusicXML {
         parts = new Part[part_nodes.size()];
 
         for (int i = 0; i < parts.length; i++){
-            parts[i] = new Part(part_nodes.get(i));
+            parts[i] = new Part();
+            parts[i].initFromXML(part_nodes.get(i));
         }
     }
 
     public Document getXMLDoc(){
         return doc;
-    }
-
-    public Part[] getParts(){
-        return parts;
-    }
-
-    public Part getPartAt(int id){
-        return parts[id];
     }
 }

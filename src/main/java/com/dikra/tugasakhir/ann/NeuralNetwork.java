@@ -21,6 +21,18 @@ public class NeuralNetwork {
 
 
     public NeuralNetwork(int inputCount, int[] hiddenCount, int outputCount, double learnRate, double momentum) {
+        initialize(inputCount, hiddenCount, outputCount, learnRate, momentum);
+    }
+
+    public NeuralNetwork(int inputCount, int hiddenLayCount, int outputCount, double learnRate, double momentum){
+        int[] hiddenCount = new int[hiddenLayCount];
+        int nodeCount = Math.round((inputCount+outputCount) * 2.f / 3.f);
+        for (int i = 0; i < hiddenLayCount; i++) hiddenCount[i] = nodeCount;
+
+        initialize(inputCount, hiddenCount, outputCount, learnRate, momentum);
+    }
+
+    private void initialize(int inputCount, int[] hiddenCount, int outputCount, double learnRate, double momentum) {
         // Initialize constant variables
         this.inputCount = inputCount;
         this.hiddenCount = hiddenCount;
@@ -52,7 +64,6 @@ public class NeuralNetwork {
 
 
     }
-
 
     private void initializeWeights(NeuralLayer layerA, NeuralLayer layerB){
         Perceptron[] perceptronsA = layerA.getPerceptrons();

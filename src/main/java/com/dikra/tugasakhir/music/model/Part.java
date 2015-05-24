@@ -1,8 +1,7 @@
-package com.dikra.tugasakhir.musicxml;
+package com.dikra.tugasakhir.music.model;
 
 import org.dom4j.Node;
 
-import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -13,7 +12,10 @@ public class Part {
     private Measure[] measures;
     private MeasureAttributes[] measureAtts;
 
-    public Part(Node node){
+    public Part(){
+    }
+
+    public void initFromXML(Node node){
         id = node.valueOf("@id");
 
         List<Node> measure_nodes = node.selectNodes("measure");
@@ -23,11 +25,13 @@ public class Part {
 
         for (int i = 0; i < measures.length; i++){
             Node mnode = measure_nodes.get(i);
-            measures[i] = new Measure(mnode);
+            measures[i] = new Measure();
+            measures[i].initFromXML(mnode);
 
             Node att_node = mnode.selectSingleNode("attributes");
             if (att_node != null){
-                measureAtts[i] = new MeasureAttributes(att_node);
+                measureAtts[i] = new MeasureAttributes();
+                measureAtts[i].initFromXML(att_node);
             } else {
                 measureAtts[i] = measureAtts[i-1];
             }
@@ -54,5 +58,13 @@ public class Part {
     /*** Returns measure with its number as id (1-based index) ***/
     public Measure getMeasureAtNumber(int id){
         return measures[id-1];
+    }
+
+    public MeasureAttributes[] getMeasureAttributes(){
+        return measureAtts;
+    }
+
+    public MeasureAttributes getMeasureAttAt(int id){
+        return measureAtts[id];
     }
 }

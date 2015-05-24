@@ -1,4 +1,4 @@
-package com.dikra.tugasakhir.musicxml;
+package com.dikra.tugasakhir.music.model;
 
 import org.dom4j.Node;
 
@@ -14,7 +14,10 @@ public class MeasureAttributes {
     private char clef_sign;
     private int clef_line;
 
-    public MeasureAttributes(Node att_node){
+    public MeasureAttributes(){
+    }
+
+    public void initFromXML(Node att_node){
         Node key_node = att_node.selectSingleNode("key");
         Node time_node = att_node.selectSingleNode("time");
         Node clef_node = att_node.selectSingleNode("clef");
