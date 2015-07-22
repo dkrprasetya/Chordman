@@ -1,7 +1,5 @@
 package com.dikra.tugasakhir.ann;
 
-import java.util.List;
-
 /**
  * Created by DIKRA on 4/16/2015.
  */

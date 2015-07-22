@@ -2,7 +2,7 @@ package com.dikra.tugasakhir;
 
 import com.dikra.tugasakhir.ann.NeuralNetwork;
 import junit.framework.TestCase;
-import org.junit.*;
+import org.junit.Test;
 
 /**
  * Created by DIKRA on 5/24/2015.
@@ -18,7 +18,7 @@ public class ANNTestCase extends TestCase {
 
         for (int epoch = 0; epoch < 100000; epoch++){
             for (int i = 0; i < 4; i++){
-                network.trainBackpropagation(inputs[i], outputs[i]);
+                network.trainBackPropagation(inputs[i], outputs[i]);
             }
         }
 

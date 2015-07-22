@@ -1,10 +1,10 @@
 package com.dikra.tugasakhir;
 
 import com.dikra.tugasakhir.music.model.Measure;
-import com.dikra.tugasakhir.parser.xml.MusicXML;
 import com.dikra.tugasakhir.music.model.Part;
+import com.dikra.tugasakhir.parser.xml.MusicXML;
 import junit.framework.TestCase;
-import org.junit.*;
+import org.junit.Test;
 
 /**
  * Created by DIKRA on 5/24/2015.

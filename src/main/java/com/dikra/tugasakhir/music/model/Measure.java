@@ -55,4 +55,8 @@ public class Measure {
     }
 
     public Chord getChordAt(int id){ return chords[id]; }
+
+    public void setChords(Chord[] _chords){
+        chords = _chords;
+    }
 }

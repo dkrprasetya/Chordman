@@ -1,6 +1,5 @@
 package com.dikra.tugasakhir.ann.old;
 
-import java.util.List;
 import java.util.Random;
 
 /**

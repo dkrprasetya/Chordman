@@ -1,11 +1,8 @@
 package com.dikra.tugasakhir.parser.json;
 
 import com.google.gson.Gson;
-import org.dom4j.Document;
-import org.dom4j.io.SAXReader;
 
 import java.io.BufferedReader;
-import java.io.File;
 import java.io.FileReader;
 
 /**

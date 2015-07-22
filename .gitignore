@@ -74,3 +74,9 @@ com_crashlytics_export_strings.xml
 crashlytics.properties
 crashlytics-build.properties
 
+######
+ann_weights0.in
+ann_weights1.in
+ann_weights2.in
+output.json
+

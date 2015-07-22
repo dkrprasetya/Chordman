@@ -17,7 +17,14 @@ public class Music {
     }
 
     public String getMusicJSON(){
-        Gson gson = new GsonBuilder().serializeNulls().create();
+        return getMusicJSON(false);
+    }
+
+    public String getMusicJSON(boolean prettify){
+        Gson gson;
+        if (prettify) gson = new GsonBuilder().serializeNulls().setPrettyPrinting().create();
+        else gson = new GsonBuilder().serializeNulls().create();
+
         return gson.toJson(this);
     }
 
