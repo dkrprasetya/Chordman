@@ -12,4 +12,5 @@ dependencies {
     compile 'dom4j:dom4j:1.6.1'
     compile 'jaxen:jaxen:1.1.6'
     compile 'com.google.code.gson:gson:2.3.1'
+    compile files('libs/jfugue-5.0.2.jar')
 }

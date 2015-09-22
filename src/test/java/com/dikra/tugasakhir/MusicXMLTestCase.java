@@ -12,7 +12,7 @@ import org.junit.Test;
 public class MusicXMLTestCase extends TestCase {
     @Test
     public void testMusicXML() {
-        MusicXML musicXML = new MusicXML("res/twinkle.xml");
+        MusicXML musicXML = new MusicXML("res/songs/twinkle.xml");
 
         for (Part part : musicXML.getParts()){
             assert (part.getMeasuresLength() > 0);

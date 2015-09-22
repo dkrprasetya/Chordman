@@ -27,7 +27,7 @@ public class Measure {
             notes[i].initFromXML(note_nodes.get(i));
         }
 
-        System.out.println("Measure " + number + ", consisting " + getNotesLength() + " note(s), has been constructed.");
+//        System.out.println("Measure " + number + ", consisting " + getNotesLength() + " note(s), has been constructed.");
     }
 
     public int getNumber(){

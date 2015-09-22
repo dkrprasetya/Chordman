@@ -88,12 +88,15 @@ public class NeuralNetwork {
         Weight[][] weights_in = new Weight[sizeB][sizeA+1];
         Weight[][] weights_out = new Weight[sizeA+1][sizeB];
 
-        double sqr_inp = Math.sqrt(perceptronsA.length+1);
+        //double sqr_inp = 1/(Math.sqrt(perceptronsA.length+1));
+        //double rand_low = -sqr_inp;
+        //double rand_up = sqr_inp;
 
         for (int i = 0; i < sizeA+1; i++){
             for  (int j = 0; j < sizeB; j++){
                 Weight w = new Weight(perceptronsA[i], perceptronsB[j]);
-                w.randomizeValue(-sqr_inp, sqr_inp);
+                w.setValue(0.001);
+                //w.randomizeValue(rand_low, rand_up);
 
                 weights_out[i][j] = w;
                 weights_in[j][i] = w;
@@ -119,7 +122,7 @@ public class NeuralNetwork {
     /*** Save trained ANN weights to memory ***/
     public void saveWeightToMemory(){
         try {
-            PrintWriter pw = new PrintWriter(new File("ann_weights" + MusicProcessor.experimentId  +".in"));
+            PrintWriter pw = new PrintWriter(new File("ann_weights" + MusicProcessor.experimentId + "-" + hiddenCount.length+ ".in"));
 
             for (int k = 1; k < layerSize; k++){
                 NeuralLayer layerA = neuralLayers[k-1];
@@ -138,7 +141,7 @@ public class NeuralNetwork {
                 }
             }
 
-            System.out.println("Trained weights saved to ann_weights" + MusicProcessor.experimentId  +".in");
+            System.out.println("Trained weights saved to ann_weights" + MusicProcessor.experimentId  + "-" + hiddenCount.length+".in");
             pw.close();
         } catch (Exception e){
             e.printStackTrace();
@@ -150,9 +153,9 @@ public class NeuralNetwork {
     /*** Load trained ANN weights from memory ***/
     public void loadFromMemory(){
         try {
-            Scanner sc = new Scanner(new File("ann_weights"+ MusicProcessor.experimentId + ".in"));
+            Scanner sc = new Scanner(new File("ann_weights"+ MusicProcessor.experimentId + "-" + hiddenCount.length+ ".in"));
 
-            System.out.println("Read from " + "ann_weights"+ MusicProcessor.experimentId + ".in");
+            System.out.println("Read from " + "ann_weights"+ MusicProcessor.experimentId + "-" + hiddenCount.length+ ".in");
 
             for (int k = 1; k < layerSize; k++){
                 NeuralLayer layerA = neuralLayers[k-1];
@@ -256,7 +259,31 @@ public class NeuralNetwork {
 
     /*** Balancing dataset by compressing identic set to power of 2 ***/
     public static void balanceDataSet(List<DataSet> dataSets){
+        List<DataSet> temp = new ArrayList<DataSet>();
         Integer[] identic_count = new Integer[dataSets.size()];
+
+        try {
+            PrintWriter pw = new PrintWriter(new File("dataset_log.txt"));
+            System.out.println("Initial datasets:");
+            for (int i = 0; i < dataSets.size(); ++i){
+                double[] cur_input = dataSets.get(i).inputs;
+                double[] cur_output = dataSets.get(i).outputs;
+
+                pw.println(">>" + (i+1));
+                pw.print("Input:");
+                for (int j = 0; j < cur_input.length; ++j){
+                    pw.print(" " + cur_input[j] + "(" + (j%12) + "-" + (j/12) + ")");
+                }
+                pw.println();
+                pw.print("Output:");
+                for (int j = 0; j < cur_output.length; ++j){
+                    pw.print(" " + cur_output[j] + "(" + j + ")");
+                }
+                pw.println();
+            }
+        } catch(Exception e){
+            e.printStackTrace();
+        }
 
         for (int i = 0; i < dataSets.size(); ++i){
             double[] cur_input = dataSets.get(i).inputs;
@@ -289,10 +316,39 @@ public class NeuralNetwork {
         int sz = dataSets.size();
         for (int i = 0; i < sz; ++i){
             while (identic_count[i] > 0){
-                dataSets.add(dataSets.get(i));
+                temp.add(dataSets.get(i));
                 identic_count[i] /= 2;
             }
         }
+
+        dataSets.clear();
+        dataSets.addAll(temp);
+
+
+        try {
+            PrintWriter pw = new PrintWriter(new File("final_dataset_log.txt"));
+            pw.println("Final datasets:");
+            for (int i = 0; i < dataSets.size(); ++i){
+                double[] cur_input = dataSets.get(i).inputs;
+                double[] cur_output = dataSets.get(i).outputs;
+
+                pw.println(">>" + (i+1));
+
+                pw.print("Input:");
+                for (int j = 0; j < cur_input.length; ++j){
+                    pw.print(" " + cur_input[j] + "(" + (j%12) + "-" + (j/12) + ")");
+                }
+                pw.println();
+                pw.print("Output:");
+                for (int j = 0; j < cur_output.length; ++j){
+                    pw.print(" " + cur_output[j] + "(" + j + ")");
+                }
+                pw.println();
+            }
+        } catch(Exception e){
+            e.printStackTrace();
+        }
+
     }
 
 

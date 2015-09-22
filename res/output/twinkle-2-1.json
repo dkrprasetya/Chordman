@@ -1,0 +1,617 @@
+{
+  "parts": [
+    {
+      "id": "P1",
+      "measures": [
+        {
+          "number": 1,
+          "notes": [
+            {
+              "pitch_step": "C",
+              "pitch_octave": 4,
+              "pitch_alter": 0,
+              "duration": 1,
+              "rest": false
+            },
+            {
+              "pitch_step": "C",
+              "pitch_octave": 4,
+              "pitch_alter": 0,
+              "duration": 1,
+              "rest": false
+            },
+            {
+              "pitch_step": "G",
+              "pitch_octave": 4,
+              "pitch_alter": 0,
+              "duration": 1,
+              "rest": false
+            },
+            {
+              "pitch_step": "G",
+              "pitch_octave": 4,
+              "pitch_alter": 0,
+              "duration": 1,
+              "rest": false
+            }
+          ],
+          "chords": [
+            {
+              "pitch_step": "C",
+              "pitch_alter": 0,
+              "duration": 2
+            },
+            {
+              "pitch_step": "C",
+              "pitch_alter": 0,
+              "duration": 2
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "notes": [
+            {
+              "pitch_step": "A",
+              "pitch_octave": 4,
+              "pitch_alter": 0,
+              "duration": 1,
+              "rest": false
+            },
+            {
+              "pitch_step": "A",
+              "pitch_octave": 4,
+              "pitch_alter": 0,
+              "duration": 1,
+              "rest": false
+            },
+            {
+              "pitch_step": "G",
+              "pitch_octave": 4,
+              "pitch_alter": 0,
+              "duration": 2,
+              "rest": false
+            }
+          ],
+          "chords": [
+            {
+              "pitch_step": "G",
+              "pitch_alter": 0,
+              "duration": 2
+            },
+            {
+              "pitch_step": "G",
+              "pitch_alter": 0,
+              "duration": 2
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "notes": [
+            {
+              "pitch_step": "F",
+              "pitch_octave": 4,
+              "pitch_alter": 0,
+              "duration": 1,
+              "rest": false
+            },
+            {
+              "pitch_step": "F",
+              "pitch_octave": 4,
+              "pitch_alter": 0,
+              "duration": 1,
+              "rest": false
+            },
+            {
+              "pitch_step": "E",
+              "pitch_octave": 4,
+              "pitch_alter": 0,
+              "duration": 1,
+              "rest": false
+            },
+            {
+              "pitch_step": "E",
+              "pitch_octave": 4,
+              "pitch_alter": 0,
+              "duration": 1,
+              "rest": false
+            }
+          ],
+          "chords": [
+            {
+              "pitch_step": "C",
+              "pitch_alter": 0,
+              "duration": 2
+            },
+            {
+              "pitch_step": "E",
+              "pitch_alter": 0,
+              "duration": 2
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "notes": [
+            {
+              "pitch_step": "D",
+              "pitch_octave": 4,
+              "pitch_alter": 0,
+              "duration": 1,
+              "rest": false
+            },
+            {
+              "pitch_step": "D",
+              "pitch_octave": 4,
+              "pitch_alter": 0,
+              "duration": 1,
+              "rest": false
+            },
+            {
+              "pitch_step": "C",
+              "pitch_octave": 4,
+              "pitch_alter": 0,
+              "duration": 2,
+              "rest": false
+            }
+          ],
+          "chords": [
+            {
+              "pitch_step": "E",
+              "pitch_alter": 0,
+              "duration": 2
+            },
+            {
+              "pitch_step": "C",
+              "pitch_alter": 0,
+              "duration": 2
+            }
+          ]
+        },
+        {
+          "number": 5,
+          "notes": [
+            {
+              "pitch_step": "G",
+              "pitch_octave": 4,
+              "pitch_alter": 0,
+              "duration": 1,
+              "rest": false
+            },
+            {
+              "pitch_step": "G",
+              "pitch_octave": 4,
+              "pitch_alter": 0,
+              "duration": 1,
+              "rest": false
+            },
+            {
+              "pitch_step": "F",
+              "pitch_octave": 4,
+              "pitch_alter": 0,
+              "duration": 1,
+              "rest": false
+            },
+            {
+              "pitch_step": "F",
+              "pitch_octave": 4,
+              "pitch_alter": 0,
+              "duration": 1,
+              "rest": false
+            }
+          ],
+          "chords": [
+            {
+              "pitch_step": "C",
+              "pitch_alter": 0,
+              "duration": 2
+            },
+            {
+              "pitch_step": "G",
+              "pitch_alter": 0,
+              "duration": 2
+            }
+          ]
+        },
+        {
+          "number": 6,
+          "notes": [
+            {
+              "pitch_step": "E",
+              "pitch_octave": 4,
+              "pitch_alter": 0,
+              "duration": 1,
+              "rest": false
+            },
+            {
+              "pitch_step": "E",
+              "pitch_octave": 4,
+              "pitch_alter": 0,
+              "duration": 1,
+              "rest": false
+            },
+            {
+              "pitch_step": "D",
+              "pitch_octave": 4,
+              "pitch_alter": 0,
+              "duration": 2,
+              "rest": false
+            }
+          ],
+          "chords": [
+            {
+              "pitch_step": "C",
+              "pitch_alter": 0,
+              "duration": 2
+            },
+            {
+              "pitch_step": "D",
+              "pitch_alter": 0,
+              "duration": 2
+            }
+          ]
+        },
+        {
+          "number": 7,
+          "notes": [
+            {
+              "pitch_step": "G",
+              "pitch_octave": 4,
+              "pitch_alter": 0,
+              "duration": 1,
+              "rest": false
+            },
+            {
+              "pitch_step": "G",
+              "pitch_octave": 4,
+              "pitch_alter": 0,
+              "duration": 1,
+              "rest": false
+            },
+            {
+              "pitch_step": "F",
+              "pitch_octave": 4,
+              "pitch_alter": 0,
+              "duration": 1,
+              "rest": false
+            },
+            {
+              "pitch_step": "F",
+              "pitch_octave": 4,
+              "pitch_alter": 0,
+              "duration": 1,
+              "rest": false
+            }
+          ],
+          "chords": [
+            {
+              "pitch_step": "F",
+              "pitch_alter": 0,
+              "duration": 2
+            },
+            {
+              "pitch_step": "A",
+              "pitch_alter": 0,
+              "duration": 2
+            }
+          ]
+        },
+        {
+          "number": 8,
+          "notes": [
+            {
+              "pitch_step": "E",
+              "pitch_octave": 4,
+              "pitch_alter": 0,
+              "duration": 1,
+              "rest": false
+            },
+            {
+              "pitch_step": "E",
+              "pitch_octave": 4,
+              "pitch_alter": 0,
+              "duration": 1,
+              "rest": false
+            },
+            {
+              "pitch_step": "D",
+              "pitch_octave": 4,
+              "pitch_alter": 0,
+              "duration": 2,
+              "rest": false
+            }
+          ],
+          "chords": [
+            {
+              "pitch_step": "D",
+              "pitch_alter": 0,
+              "duration": 2
+            },
+            {
+              "pitch_step": "E",
+              "pitch_alter": 0,
+              "duration": 2
+            }
+          ]
+        },
+        {
+          "number": 9,
+          "notes": [
+            {
+              "pitch_step": "C",
+              "pitch_octave": 4,
+              "pitch_alter": 0,
+              "duration": 1,
+              "rest": false
+            },
+            {
+              "pitch_step": "C",
+              "pitch_octave": 4,
+              "pitch_alter": 0,
+              "duration": 1,
+              "rest": false
+            },
+            {
+              "pitch_step": "G",
+              "pitch_octave": 4,
+              "pitch_alter": 0,
+              "duration": 1,
+              "rest": false
+            },
+            {
+              "pitch_step": "G",
+              "pitch_octave": 4,
+              "pitch_alter": 0,
+              "duration": 1,
+              "rest": false
+            }
+          ],
+          "chords": [
+            {
+              "pitch_step": "B",
+              "pitch_alter": 0,
+              "duration": 2
+            },
+            {
+              "pitch_step": "C",
+              "pitch_alter": 0,
+              "duration": 2
+            }
+          ]
+        },
+        {
+          "number": 10,
+          "notes": [
+            {
+              "pitch_step": "A",
+              "pitch_octave": 4,
+              "pitch_alter": 0,
+              "duration": 1,
+              "rest": false
+            },
+            {
+              "pitch_step": "A",
+              "pitch_octave": 4,
+              "pitch_alter": 0,
+              "duration": 1,
+              "rest": false
+            },
+            {
+              "pitch_step": "G",
+              "pitch_octave": 4,
+              "pitch_alter": 0,
+              "duration": 2,
+              "rest": false
+            }
+          ],
+          "chords": [
+            {
+              "pitch_step": "F",
+              "pitch_alter": 0,
+              "duration": 2
+            },
+            {
+              "pitch_step": "F",
+              "pitch_alter": 0,
+              "duration": 2
+            }
+          ]
+        },
+        {
+          "number": 11,
+          "notes": [
+            {
+              "pitch_step": "F",
+              "pitch_octave": 4,
+              "pitch_alter": 0,
+              "duration": 1,
+              "rest": false
+            },
+            {
+              "pitch_step": "F",
+              "pitch_octave": 4,
+              "pitch_alter": 0,
+              "duration": 1,
+              "rest": false
+            },
+            {
+              "pitch_step": "E",
+              "pitch_octave": 4,
+              "pitch_alter": 0,
+              "duration": 1,
+              "rest": false
+            },
+            {
+              "pitch_step": "E",
+              "pitch_octave": 4,
+              "pitch_alter": 0,
+              "duration": 1,
+              "rest": false
+            }
+          ],
+          "chords": [
+            {
+              "pitch_step": "G",
+              "pitch_alter": 0,
+              "duration": 2
+            },
+            {
+              "pitch_step": "C",
+              "pitch_alter": 0,
+              "duration": 2
+            }
+          ]
+        },
+        {
+          "number": 12,
+          "notes": [
+            {
+              "pitch_step": "D",
+              "pitch_octave": 4,
+              "pitch_alter": 0,
+              "duration": 1,
+              "rest": false
+            },
+            {
+              "pitch_step": "D",
+              "pitch_octave": 4,
+              "pitch_alter": 0,
+              "duration": 1,
+              "rest": false
+            },
+            {
+              "pitch_step": "C",
+              "pitch_octave": 4,
+              "pitch_alter": 0,
+              "duration": 2,
+              "rest": false
+            }
+          ],
+          "chords": [
+            {
+              "pitch_step": "A",
+              "pitch_alter": 0,
+              "duration": 2
+            },
+            {
+              "pitch_step": "F",
+              "pitch_alter": 0,
+              "duration": 2
+            }
+          ]
+        }
+      ],
+      "measureAtts": [
+        {
+          "divisions": 1,
+          "key_fifths": 0,
+          "key_mode": 0,
+          "time_beats": 4,
+          "time_beat_type": 4,
+          "clef_sign": "G",
+          "clef_line": 2
+        },
+        {
+          "divisions": 1,
+          "key_fifths": 0,
+          "key_mode": 0,
+          "time_beats": 4,
+          "time_beat_type": 4,
+          "clef_sign": "G",
+          "clef_line": 2
+        },
+        {
+          "divisions": 1,
+          "key_fifths": 0,
+          "key_mode": 0,
+          "time_beats": 4,
+          "time_beat_type": 4,
+          "clef_sign": "G",
+          "clef_line": 2
+        },
+        {
+          "divisions": 1,
+          "key_fifths": 0,
+          "key_mode": 0,
+          "time_beats": 4,
+          "time_beat_type": 4,
+          "clef_sign": "G",
+          "clef_line": 2
+        },
+        {
+          "divisions": 1,
+          "key_fifths": 0,
+          "key_mode": 0,
+          "time_beats": 4,
+          "time_beat_type": 4,
+          "clef_sign": "G",
+          "clef_line": 2
+        },
+        {
+          "divisions": 1,
+          "key_fifths": 0,
+          "key_mode": 0,
+          "time_beats": 4,
+          "time_beat_type": 4,
+          "clef_sign": "G",
+          "clef_line": 2
+        },
+        {
+          "divisions": 1,
+          "key_fifths": 0,
+          "key_mode": 0,
+          "time_beats": 4,
+          "time_beat_type": 4,
+          "clef_sign": "G",
+          "clef_line": 2
+        },
+        {
+          "divisions": 1,
+          "key_fifths": 0,
+          "key_mode": 0,
+          "time_beats": 4,
+          "time_beat_type": 4,
+          "clef_sign": "G",
+          "clef_line": 2
+        },
+        {
+          "divisions": 1,
+          "key_fifths": 0,
+          "key_mode": 0,
+          "time_beats": 4,
+          "time_beat_type": 4,
+          "clef_sign": "G",
+          "clef_line": 2
+        },
+        {
+          "divisions": 1,
+          "key_fifths": 0,
+          "key_mode": 0,
+          "time_beats": 4,
+          "time_beat_type": 4,
+          "clef_sign": "G",
+          "clef_line": 2
+        },
+        {
+          "divisions": 1,
+          "key_fifths": 0,
+          "key_mode": 0,
+          "time_beats": 4,
+          "time_beat_type": 4,
+          "clef_sign": "G",
+          "clef_line": 2
+        },
+        {
+          "divisions": 1,
+          "key_fifths": 0,
+          "key_mode": 0,
+          "time_beats": 4,
+          "time_beat_type": 4,
+          "clef_sign": "G",
+          "clef_line": 2
+        }
+      ]
+    }
+  ]
+}

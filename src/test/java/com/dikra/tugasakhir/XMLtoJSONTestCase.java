@@ -15,7 +15,7 @@ import java.io.PrintWriter;
 public class XMLtoJSONTestCase extends TestCase {
     @Test
     public void testXMLtoJSON() {
-        MusicXML musicXML = new MusicXML("res/twinkle.xml");
+        MusicXML musicXML = new MusicXML("res/songs/twinkle.xml");
         Music music = new Music();
         music.setParts(musicXML.getParts());
 

@@ -53,7 +53,7 @@ public abstract class Perceptron {
     }
 
     /* Activation function: sigmoid */
-    protected double threshold(double sum){
+    public static double threshold(double sum){
         return 1. / (1. + Math.exp(-sum));
     }
 

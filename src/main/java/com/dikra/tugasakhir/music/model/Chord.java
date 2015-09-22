@@ -83,4 +83,29 @@ public class Chord {
         duration = _duration;
     }
 
+    public int getId(){
+        int ret = 0;
+        if (pitch_step.equals("C")) ret = 0;
+        if (pitch_step.equals("D")) ret = 2;
+        if (pitch_step.equals("E")) ret = 4;
+        if (pitch_step.equals("F")) ret = 5;
+        if (pitch_step.equals("G")) ret = 7;
+        if (pitch_step.equals("A")) ret = 9;
+        if (pitch_step.equals("B")) ret = 11;
+
+        ret += pitch_alter;
+
+        return ret;
+    }
+
+    public Chord getRelativeChord(){
+        int id  = getId();
+
+        if (id == 2 || id == 4 || id == 9){
+            return getChordFromId((id+3) % 12);
+        } else {
+            return getChordFromId((id-3+12)%12);
+        }
+    }
+
 }

@@ -37,7 +37,7 @@ public class Part {
             }
         }
 
-        System.out.println("Part " + id + ", consisting " + getMeasuresLength() + " measure(s), has been constructed.");
+//        System.out.println("Part " + id + ", consisting " + getMeasuresLength() + " measure(s), has been constructed.");
     }
 
     /*** Returns id of the part ***/
