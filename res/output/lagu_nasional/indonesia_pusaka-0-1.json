@@ -37,12 +37,12 @@
           ],
           "chords": [
             {
-              "pitch_step": "G",
+              "pitch_step": "C",
               "pitch_alter": 0,
               "duration": 4
             },
             {
-              "pitch_step": "G",
+              "pitch_step": "C",
               "pitch_alter": 0,
               "duration": 4
             }
@@ -207,7 +207,7 @@
           ],
           "chords": [
             {
-              "pitch_step": "G",
+              "pitch_step": "C",
               "pitch_alter": 0,
               "duration": 4
             },
@@ -252,12 +252,12 @@
           ],
           "chords": [
             {
-              "pitch_step": "C",
+              "pitch_step": "D",
               "pitch_alter": 0,
               "duration": 4
             },
             {
-              "pitch_step": "C",
+              "pitch_step": "A",
               "pitch_alter": 0,
               "duration": 4
             }
@@ -311,12 +311,12 @@
           ],
           "chords": [
             {
-              "pitch_step": "G",
+              "pitch_step": "C",
               "pitch_alter": 0,
               "duration": 4
             },
             {
-              "pitch_step": "G",
+              "pitch_step": "C",
               "pitch_alter": 0,
               "duration": 4
             }
@@ -363,12 +363,12 @@
           ],
           "chords": [
             {
-              "pitch_step": "C",
+              "pitch_step": "D",
               "pitch_alter": 0,
               "duration": 4
             },
             {
-              "pitch_step": "G",
+              "pitch_step": "A",
               "pitch_alter": 0,
               "duration": 4
             }
@@ -427,7 +427,7 @@
               "duration": 4
             },
             {
-              "pitch_step": "G",
+              "pitch_step": "C",
               "pitch_alter": 0,
               "duration": 4
             }
@@ -467,12 +467,12 @@
           ],
           "chords": [
             {
-              "pitch_step": "G",
+              "pitch_step": "C",
               "pitch_alter": 0,
               "duration": 4
             },
             {
-              "pitch_step": "G",
+              "pitch_step": "C",
               "pitch_alter": 0,
               "duration": 4
             }
@@ -531,7 +531,7 @@
               "duration": 4
             },
             {
-              "pitch_step": "G",
+              "pitch_step": "C",
               "pitch_alter": 0,
               "duration": 4
             }
@@ -571,12 +571,12 @@
           ],
           "chords": [
             {
-              "pitch_step": "G",
+              "pitch_step": "C",
               "pitch_alter": 0,
               "duration": 4
             },
             {
-              "pitch_step": "G",
+              "pitch_step": "C",
               "pitch_alter": 0,
               "duration": 4
             }
@@ -675,12 +675,12 @@
           ],
           "chords": [
             {
-              "pitch_step": "G",
+              "pitch_step": "D",
               "pitch_alter": 0,
               "duration": 4
             },
             {
-              "pitch_step": "G",
+              "pitch_step": "A",
               "pitch_alter": 0,
               "duration": 4
             }
@@ -734,7 +734,7 @@
           ],
           "chords": [
             {
-              "pitch_step": "G",
+              "pitch_step": "C",
               "pitch_alter": 0,
               "duration": 4
             },
@@ -786,12 +786,12 @@
           ],
           "chords": [
             {
-              "pitch_step": "G",
+              "pitch_step": "D",
               "pitch_alter": 0,
               "duration": 4
             },
             {
-              "pitch_step": "C",
+              "pitch_step": "A",
               "pitch_alter": 0,
               "duration": 4
             }

@@ -117,7 +117,7 @@
           ],
           "chords": [
             {
-              "pitch_step": "G",
+              "pitch_step": "C",
               "pitch_alter": 0,
               "duration": 24
             },
@@ -176,12 +176,12 @@
           ],
           "chords": [
             {
-              "pitch_step": "D",
+              "pitch_step": "C",
               "pitch_alter": 0,
               "duration": 24
             },
             {
-              "pitch_step": "D",
+              "pitch_step": "C",
               "pitch_alter": 0,
               "duration": 24
             }
@@ -242,12 +242,12 @@
           ],
           "chords": [
             {
-              "pitch_step": "E",
+              "pitch_step": "C",
               "pitch_alter": 0,
               "duration": 24
             },
             {
-              "pitch_step": "G",
+              "pitch_step": "D",
               "pitch_alter": 0,
               "duration": 24
             }
@@ -301,12 +301,12 @@
           ],
           "chords": [
             {
-              "pitch_step": "E",
+              "pitch_step": "A",
               "pitch_alter": 0,
               "duration": 24
             },
             {
-              "pitch_step": "G",
+              "pitch_step": "C",
               "pitch_alter": 0,
               "duration": 24
             }
@@ -367,7 +367,7 @@
           ],
           "chords": [
             {
-              "pitch_step": "F",
+              "pitch_step": "C",
               "pitch_alter": 0,
               "duration": 24
             },
@@ -433,12 +433,12 @@
           ],
           "chords": [
             {
-              "pitch_step": "E",
+              "pitch_step": "C",
               "pitch_alter": 0,
               "duration": 24
             },
             {
-              "pitch_step": "G",
+              "pitch_step": "C",
               "pitch_alter": 0,
               "duration": 24
             }
@@ -485,12 +485,12 @@
           ],
           "chords": [
             {
-              "pitch_step": "E",
+              "pitch_step": "C",
               "pitch_alter": 0,
               "duration": 24
             },
             {
-              "pitch_step": "G",
+              "pitch_step": "C",
               "pitch_alter": 0,
               "duration": 24
             }
